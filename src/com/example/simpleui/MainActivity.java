@@ -84,9 +84,12 @@ public class MainActivity extends Activity {
 			}
 		});
 		isEncrypt.setChecked(sp.getBoolean("isEncrypt", false));
-		ParseObject testObject = new ParseObject("TestObject");
-		testObject.put("foo", "new data");
-		testObject.saveInBackground();
+		//ParseObject testObject = new ParseObject("TestObject");
+		//testObject.put("foo", "new data");
+		//testObject.saveInBackground();
+		//ParseObject testObject = new ParseObject("TestObject");
+		//testObject.put("foo", "new data");
+		//testObject.saveInBackground();
 	}
 
 	public void submit2(View v) {		
